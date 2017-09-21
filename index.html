@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Register Now!</title>
-    <link href='https://ac2050.github.io/itmd362-fa2017-project1/css/style.css' 
-      type='text/css' rel='stylesheet'>
     <link href="https://ac2050.github.io/itmd362-fa2017-project1/css/Normalize.css"
       rel="stylesheet" type="text/css">
+    <link href="css/style.css" type='text/css' rel='stylesheet'>
+<!--https://ac2050.github.io/itmd362-fa2017-project1/css/style.css-->
     <link href="https://ac2050.github.io/Project-3/images/leaf_favicon.ico"
       type="image/x-icon" rel="icon">
   </head>
@@ -14,33 +14,35 @@
     <header>
       <h1>Sign Up!</h1>
     </header>
-    <form name="formArea" action="" method="get">
-      <h2>Get your <span class="loud">FREE</span> widget <span 
-        class="loud">NOW</span>!</h2>
-      <fieldset>
-        <div class="fields">
-          <label class="input">First Name:
-            <input type="text" placeholder="First Name" name="fName" required>
-          </label>
-        </div>
-        <div class="fields">
-          <label class="input">Last Name: 
-            <input type="text" placeholder="Last Name" name="lName" required>
-          </label>
-        </div>
-        <div class="fields">
-          <label class="input">Email:
-            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"
-              placeholder="email@site.com" name="email" required>
-          </label>
-        </div>
-        <div class="fields">
-          <label class="input">Phone Number: 
-            <input type="tel" name="phone_field" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="XXX-XXX-XXXX">
-          </label>
-        </div>
-      </fieldset>
-    </form>
+    <div id="formContainer">
+      <form name="formArea" action="" method="get">
+        <h2>Get your <span class="loud">FREE</span> widget <span 
+          class="loud">NOW</span>!</h2>
+        <fieldset>
+          <div class="fields">
+            <label class="input">First Name:
+              <input type="text" placeholder="First Name" name="fName" required>
+            </label>
+          </div>
+          <div class="fields">
+            <label class="input">Last Name: 
+              <input type="text" placeholder="Last Name" name="lName" required>
+            </label>
+          </div>
+          <div class="fields">
+            <label class="input">Email:
+              <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"
+                placeholder="email@site.com" name="email" required>
+            </label>
+          </div>
+          <div class="fields">
+            <label class="input">Phone Number: 
+              <input type="tel" name="phone_field" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="XXX-XXX-XXXX">
+            </label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
     <footer>
 
     </footer>

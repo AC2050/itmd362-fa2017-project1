@@ -57,18 +57,22 @@ table {
 
 /*end reset*/
 
-form {
-	width: 100em;
+header {
+	text-align: center;
+}
+
+#formContainer {
+	max-width: 100px;
 }
 
 @media screen and (max-width:320px) {
-	form {
+	#formContainer {
 		max-width: 100%;
 	}
 } 
 
-@media screen and (min-width:320px) and (max-width:640px) {
-	form {
+@media screen and (min-width:321px) and (max-width:640px) {
+	#formContainer {
 		max-width: 90%
 	}
 } 
