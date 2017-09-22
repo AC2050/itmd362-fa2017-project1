@@ -14,5 +14,7 @@ form.addEventListener("submit", function (event) {
     error.innerHTML = "invalid email";
     error.className = "error active";
     event.preventDefault();
+  } else {
+	alert("thanks");
   }
 }, false);
