@@ -57,6 +57,10 @@ table {
 
 /*end reset*/
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 header {
 	text-align: center;
 	font-weight: bold;
@@ -69,10 +73,17 @@ h2 {
 }
 
 #formContainer {
-	width: 25em;
-	border: 0.05em solid black;
+	max-width: 20em;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+fieldset {
+	border: 0.05em solid black;
+}
+
+fieldset legend {
+	margin-left: 2em;
 }
 
 .fields {
@@ -81,13 +92,17 @@ h2 {
 }
 
 .labels {
-	margin-left: 1.7em;
+	margin-left: 2.7em;
+}
+
+#first {
+	margin-top: 1em;
 }
 
 .labels input{
 	display: block;
 	box-sizing: border-box;
-	margin: 0.5em 0 1.5em 2em;
+	margin: 0.5em 0 1.5em 3em;
 }
 
 @media screen and (max-width:320px) {
@@ -98,6 +113,7 @@ h2 {
 
 @media screen and (min-width:321px) and (max-width:640px) {
 	#formContainer {
-		max-width: 90%
+		max-width: 90%;
+		width: 20em;
 	}
 } 
