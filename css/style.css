@@ -59,10 +59,35 @@ table {
 
 header {
 	text-align: center;
+	font-weight: bold;
+	margin: 2em auto 0.5em auto;
+}
+
+h2 {
+	text-align: center;
+	margin: 1em auto;
 }
 
 #formContainer {
-	max-width: 100px;
+	width: 25em;
+	border: 0.05em solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fields {
+	display: block;
+	box-sizing: border-box;
+}
+
+.labels {
+	margin-left: 1.7em;
+}
+
+.labels input{
+	display: block;
+	box-sizing: border-box;
+	margin: 0.5em 0 1.5em 2em;
 }
 
 @media screen and (max-width:320px) {
