@@ -106,6 +106,10 @@ fieldset legend {
 	margin: 0.5em 0 1.5em 3em;
 }
 
+#submit{
+	text-align: center;
+}
+
 @media screen and (max-width: 320px) {
 	#formContainer {
 		width: 100%;
