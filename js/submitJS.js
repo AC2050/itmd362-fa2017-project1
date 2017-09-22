@@ -16,5 +16,4 @@ form.addEventListener("submit", function (event) {
     error.className = "error active";
     event.preventDefault();
   }
-  alert("!!!");
 }, false);
