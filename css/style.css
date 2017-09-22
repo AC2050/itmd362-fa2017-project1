@@ -107,20 +107,12 @@ fieldset legend {
 }
 
 @media screen and (max-width: 320px) {
-	body {
-		font-size: 2em;
-	}
-
 	#formContainer {
 		max-width: 100%;
 	}
 } 
 
 @media screen and (min-width:321px) and (max-width:640px) {
-	body {
-		font-size: 1.5em;
-	}
-
 	#formContainer {
 		max-width: 90%;
 	}
