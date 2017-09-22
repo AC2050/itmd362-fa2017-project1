@@ -106,15 +106,22 @@ fieldset legend {
 	margin: 0.5em 0 1.5em 3em;
 }
 
-@media screen and (max-device-width: 320px) {
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 2em;
+	}
+
 	#formContainer {
 		max-width: 100%;
 	}
 } 
 
 @media screen and (min-width:321px) and (max-width:640px) {
+	body {
+		font-size: 1.5em;
+	}
+
 	#formContainer {
 		max-width: 90%;
-		width: 20em;
 	}
 } 
