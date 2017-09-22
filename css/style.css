@@ -107,7 +107,7 @@ fieldset legend {
 }
 
 #submit{
-	text-align: center;
+	margin: 0 auto 0.5em auto;
 }
 
 @media screen and (max-width: 320px) {
