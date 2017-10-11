@@ -7,13 +7,13 @@ email.addEventListener("input", function (event) {
   if (email.validity.valid) {
 
     error.innerHTML = "";
-    error.className = "error";
+    error.className = error;
   }
 }, false);
 form.addEventListener("submit", function (event) {
   if (!email.validity.valid) {
     error.innerHTML = "invalid email";
-    error.className = "error active";
+    error.className = error;
     event.preventDefault();
   }
 }, false);
