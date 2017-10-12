@@ -17,12 +17,10 @@
     <header>
       <h1>Welcome Widget Wizards!</h1>
     </header>
-      <h2>Get your <span class="loud">FREE</span> widget <span 
-        class="loud">NOW</span>!</h2>
     <div id="formContainer">
-      <form name="formArea" method="get">
+      <form name="formArea">
         <fieldset>
-          <legend>| Registration |</legend>
+          <legend>| Free Widget Form |</legend>
           <div id="first" class="fields">
             <label class="labels">First Name:
               <input type="text" placeholder="First Name" name="fName" required>
@@ -35,7 +33,7 @@
           </div>
           <div class="fields">
             <label class="labels" for="mail">Email:
-              <input id="mail" type="email" placeholder="email@site.com" name="email">
+              <input id="mail" type="email" placeholder="email@site.com" name="email" required>
             </label>
           </div>
           <div class="fields">
@@ -44,11 +42,12 @@
                 placeholder="XXX-XXX-XXXX" required>
             </label>
           </div>
-          <div id="submit">
-            <button>Submit!</button>
-          </div>
+            <button id="submit" name="button">FREE</button>
         </fieldset>
       </form>
+    </div>
+    <div id="surprise" class="hide">
+      <img id="spiral" class="hide" src="spiral.png" alt="spiral">
     </div>
     <footer>
 

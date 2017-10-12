@@ -1,19 +1,12 @@
-var form = document.getElementsByTagName('form')[0];
-var email = document.getElementById('mail');
-var error = document.querySelector('.error');
 
-email.addEventListener("input", function (event) {
+function fff() {
+	document.getElementById("spiral").className = 'party';
+	document.getElementById("surprise").className = 'partyBlock';
+	setTimeout(function(){
+			document.getElementById("spiral").className = 'hide';
+			document.getElementById("surprise").className = 'hide';
+			}, 3000);
+}
 
-  if (email.validity.valid) {
-
-    error.innerHTML = "";
-    error.className = error;
-  }
-}, false);
-form.addEventListener("submit", function (event) {
-  if (!email.validity.valid) {
-    error.innerHTML = "invalid email";
-    error.className = error;
-    event.preventDefault();
-  }
-}, false);
+var form = document.getElementsByTagName('button')[0];
+form.addEventListener("click", fff, false);
