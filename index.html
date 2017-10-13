@@ -18,17 +18,17 @@
       <h1>Welcome Widget Wizards!</h1>
     </header>
     <div id="formContainer">
-      <form name="formArea">
+      <form name="formArea" onsubmit="return false">
         <fieldset>
           <legend>| Free Widget Form |</legend>
           <div id="first" class="fields">
             <label class="labels">First Name:
-              <input type="text" placeholder="First Name" name="fName" required>
+              <input id="fName" type="text" placeholder="First Name" name="fName" required>
             </label>
           </div>
           <div class="fields">
             <label class="labels">Last Name: 
-              <input type="text" placeholder="Last Name" name="lName" required>
+              <input id="lName" type="text" placeholder="Last Name" name="lName" required>
             </label>
           </div>
           <div class="fields">
@@ -38,7 +38,7 @@
           </div>
           <div class="fields">
             <label class="labels">Phone Number: 
-              <input type="tel" name="phone_field" pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+              <input id="tel" type="tel" name="phone_field" pattern="\d{3}[\-]\d{3}[\-]\d{4}"
                 placeholder="XXX-XXX-XXXX" required>
             </label>
           </div>

@@ -1,4 +1,3 @@
-
 //party time
 function fff() {
 	document.getElementById("spiral").className = 'party';
@@ -6,18 +5,35 @@ function fff() {
 	setTimeout(function(){
 			document.getElementById("spiral").className = 'hide';
 			document.getElementById("surprise").className = 'hide';
-			}, 3000);
+			}, 2000);
 }
+
+//email validation
+function mailVal(mail){
+	var eVal = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+	return eVal.test(mail);
+}
+
+//phone validation (unneccessary I know but whatever)
+function telVal(tel){
+	var tVal = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+	console.log(tVal.test(tel));
+	return tVal.test(tel);
+}
+
 //make sure form is filled out
 function checkForm() {
-	var check = 0;
 	var fName = document.getElementById("fName").value;
 	var lName = document.getElementById("lName").value;
 	var email = document.getElementById("mail").value;
-	var phone = document.getElementById("phone").value;
-	if( fName == null || lName == null ) {
-			alert("H");
+	var phone = document.getElementById("tel").value;
+	if (fName != "" && lName !="" && email != "" && phone != ""){
+		if(mailVal(email) && telVal(phone)) {
+			fff();
+			setTimeout(function(){location.reload(true)}, 2000);
 		}
+	}
 	console.log(fName);
 }
 
