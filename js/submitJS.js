@@ -1,10 +1,10 @@
 //party time
 function fff() {
-	document.getElementById("spiral").className = 'party';
-	document.getElementById("surprise").className = 'partyBlock';
+	document.getElementById("spiral").className = "party";
+	document.getElementById("surprise").className = "partyBlock";
 	setTimeout(function(){
-			document.getElementById("spiral").className = 'hide';
-			document.getElementById("surprise").className = 'hide';
+			document.getElementById("spiral").className = "hide";
+			document.getElementById("surprise").className = "hide";
 			}, 1000);
 }
 
@@ -23,7 +23,7 @@ function telVal(tel){
 }
 
 //make sure form is filled out
-function checkForm() {
+function checkForm(){
 	var fName = document.getElementById("fName").value;
 	var lName = document.getElementById("lName").value;
 	var email = document.getElementById("mail").value;
