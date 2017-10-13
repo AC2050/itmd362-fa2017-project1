@@ -101,7 +101,7 @@ fieldset legend {
 	border-top: 0.05em solid black;
 	border-left: 0.05em solid black;
 	border-right: 0.05em solid black;
-	padding: 0.5em 0.025em;
+	padding: 0.15em 0.05em 0 0.05em;
 }
 
 .fields {
