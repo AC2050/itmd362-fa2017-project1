@@ -31,7 +31,7 @@ function checkForm() {
 	if (fName != "" && lName !="" && email != "" && phone != ""){
 		if(mailVal(email) && telVal(phone)) {
 			fff();
-			setTimeout(function(){location.reload(true)}, 2000);
+			setTimeout(function(){location.reload(true)}, 1000);
 		}else if(!mailVal(email)){
 			document.getElementById("mail").style.borderColor = "red";
 		}
