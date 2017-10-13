@@ -60,6 +60,8 @@ table {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
+	background: url("../wild-sea.pgn");
+	background-repeat: repeat;
 }
 
 header {

@@ -32,6 +32,8 @@ function checkForm() {
 		if(mailVal(email) && telVal(phone)) {
 			fff();
 			setTimeout(function(){location.reload(true)}, 2000);
+		}else if(!mailVal(email)){
+			document.getElementById("mail").style.borderColor = "red";
 		}
 	}
 	console.log(fName);
