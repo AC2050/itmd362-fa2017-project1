@@ -5,7 +5,7 @@ function fff() {
 	setTimeout(function(){
 			document.getElementById("spiral").className = 'hide';
 			document.getElementById("surprise").className = 'hide';
-			}, 2000);
+			}, 1000);
 }
 
 //email validation
@@ -40,6 +40,7 @@ function checkForm() {
 }
 
 var form = document.getElementsByTagName('button')[0];
+form.addEventListener("click", function(form){form.preventDefault()});
 form.addEventListener("click", checkForm, false);
 
 
