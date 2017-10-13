@@ -60,7 +60,7 @@ table {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-	background: url("https://ac2050.github.io/itmd362-fa2017-project1/photos/wild-sea.pgn");
+	background: url("https://ac2050.github.io/itmd362-fa2017-project1/photos/wild-sea.png");
 	background-repeat: repeat;
 }
 
@@ -68,6 +68,15 @@ header {
 	text-align: center;
 	font-weight: bold;
 	margin: 2em auto 1em auto;
+}
+
+h1 {
+	background-color: #f5e450;
+	border: 0.1em solid black;
+	padding: 0.5em 0;
+	max-width: 20em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h2 {
@@ -83,10 +92,16 @@ h2 {
 
 fieldset {
 	border: 0.05em solid black;
+	background-color: #f5e450;
 }
 
 fieldset legend {
-	margin-left: 2em;
+	margin-left: 1.8em;
+	background-color: #f5e450;
+	border-top: 0.05em solid black;
+	border-left: 0.05em solid black;
+	border-right: 0.05em solid black;
+	padding: 0.5em 0.025em;
 }
 
 .fields {
