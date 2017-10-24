@@ -60,6 +60,7 @@ table {
 body {
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 100%;
+	/*1.2 modular scale ratio*/
 	background: url("https://ac2050.github.io/itmd362-fa2017-project1/photos/wild-sea.png");
 	background-repeat: repeat;
 }
@@ -95,7 +96,7 @@ fieldset {
 fieldset h3 {
 	background-color: #f5e450;
 	text-align: center;
-	padding: 1em 0 0.2em 0;
+	padding-top: 1em;
 	font-size: 1.5em;
 	font-weight: bold;
 }
@@ -107,22 +108,21 @@ fieldset h3 {
 }
 
 .labels {
-	/*margin-left: 2.7em;*/
 	display: block;
 	box-sizing: border-box;
-	margin: 0.5em auto 1.5em auto;
+	margin: 0.5em auto 1em auto;
 	font-size: 1.2em;
 	width: 16em;
 }
 
 #first {
-	margin-top: 1em;
+	margin-top: 0.5em;
 }
 
 .labels input{
 	display: block;
 	box-sizing: border-box;
-	margin: 0.5em auto 1.5em auto;
+	margin: 0.5em auto 1em auto;
 	font-size: 1em;
 	width: 16em;
 }
